@@ -8,7 +8,7 @@ echo -ne '\033]0;dxh.su\a'
 w="\e[0m\e[1;38m" # white
 g="\e[0;37m" # gray
 
-text="dxh.su"
+text="dxh.su1"
 
 preStart()
 {
