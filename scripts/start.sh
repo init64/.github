@@ -37,12 +37,12 @@ while true; do
 
     for i in {..$(($tl / 2 - 4))}; do echo "$w "; done
 
-    printf "\n$( preStart 2 $tc ) $r \b__$w"
-    printf "\n$( preStart 4 $tc )  $r'_')$w"
-    printf "\n$( preStart 10 $tc )         $r\(--$w-."
-    printf "\n$( preStart 14 $tc )            $r(( )$w \b___\\"
-    printf "\n$( preStart 11 $tc )      dx $r\bh//-$w\\\\\\ \\\\\\"
-    printf "\n\n$( preStart $(( ${#text} / 2 )) $tc  )$g$text\n"
+    echo "\n$( preStart 2 $tc ) $r \b__$w"
+    echo "\n$( preStart 4 $tc )  $r'_')$w"
+    echo "\n$( preStart 10 $tc )         $r\(--$w-."
+    echo "\n$( preStart 14 $tc )            $r(( )$w \b___\\"
+    echo "\n$( preStart 11 $tc )      dx $r\bh//-$w\\\\\\ \\\\\\"
+    echo "\n\n$( preStart $(( ${#text} / 2 )) $tc  )$g$text\n"
 
     sleep .5
 done
