@@ -38,7 +38,8 @@ while true; do
 
     for i in {..$(($tl / 2 - 4))}; do echo "$w "; done
 
-    echo "$( for i in {1..$(($tc / 2 - 1))}; do echo -n \*; done; )$r \b__$w"
+#     echo "$( for i in {1..$(($tc / 2 - 1))}; do echo -n \*; done; )$r \b__$w"
+    printf ' %.0s' {1..$tl}
     echo "$( preStart 2 $tc )$r'_')$w"
     echo "$( preStart 1 $tc )$r\(--$w-."
     echo "$( preStart 2 $tc )$r(( )$w \b___\\"
