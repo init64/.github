@@ -13,7 +13,7 @@ text="dxh.su"
 preStart()
 {
     for i in {1..$(($2 / 2 - $1))}; do
-        echo -ne \ 
+        echo -n \ 
     done
 }
 
