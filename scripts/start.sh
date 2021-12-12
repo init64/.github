@@ -8,7 +8,7 @@ echo -ne '\033]0;dxh.su\a'
 w="\e[0m\e[1;38m" # white
 g="\e[0;37m" # gray
 
-text="dxh.su1"
+text="dxh.su"
 
 preStart()
 {
@@ -38,7 +38,7 @@ while true; do
 
     for i in {..$(($tl / 2 - 4))}; do echo "$w "; done
 
-    echo "$( preStart 1 $tc )$r \b__$w"
+    echo "$( for i in {1..$(($2 / 2 - $1))}; do echo -n \* done )$r \b__$w"
     echo "$( preStart 2 $tc )$r'_')$w"
     echo "$( preStart 1 $tc )$r\(--$w-."
     echo "$( preStart 2 $tc )$r(( )$w \b___\\"
