@@ -1,3 +1,4 @@
+#!/bin/bash
 # dxh.su
 trap "tput reset; tput cnorm; exit" 2
 clear
