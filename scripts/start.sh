@@ -1,5 +1,5 @@
 # dxh.su
-# trap "tput reset; tput cnorm; exit" 2
+trap "tput reset; tput cnorm; exit" 2
 clear
 tput civis
 
