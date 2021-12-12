@@ -1,5 +1,4 @@
-#!/bin/bash
-# dxh.su
+#!/bin/sh
 trap "tput reset; tput cnorm; exit" 2
 clear
 tput civis
@@ -14,7 +13,7 @@ text="dxh.su"
 preStart()
 {
     for i in {1..$(($2 / 2 - $1))}; do
-        echo -n " ";
+        echo -ne \ 
     done
 }
 
@@ -39,11 +38,11 @@ while true; do
 
     for i in {..$(($tl / 2 - 4))}; do echo "$w "; done
 
-    echo "$( preStart 2 $tc ) $r \b__$w"
-    echo "$( preStart 4 $tc )  $r'_')$w"
-    echo "$( preStart 10 $tc )         $r\(--$w-."
-    echo "$( preStart 14 $tc )            $r(( )$w \b___\\"
-    echo "$( preStart 11 $tc )      dx $r\bh//-$w\\\\\\ \\\\\\"
+    echo "$( preStart 1 $tc )$r \b__$w"
+    echo "$( preStart 2 $tc )$r'_')$w"
+    echo "$( preStart 1 $tc )$r\(--$w-."
+    echo "$( preStart 2 $tc )$r(( )$w \b___\\"
+    echo "$( preStart 5 $tc )dx $r\bh//-$w\\\\\\ \\\\\\"
     echo "\n$( preStart $(( ${#text} / 2 )) $tc  )$g$text\n"
 
     sleep .5
