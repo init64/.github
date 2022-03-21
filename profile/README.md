@@ -1,4 +1,4 @@
-<p align="center"><a href="https://vuejs.org" target="_blank" rel="noopener noreferrer"><img width="500" src="https://github.com/dsxninja/.github/blob/main/profile/images/DSX.png?raw=true" alt="DXS logo"></a></p>
+<p align="center"><img width="500" src="https://github.com/dsxninja/.github/blob/main/profile/images/DSX.png?raw=true" alt="DXS logo"></p>
 
 <p align="center">
   <a href="https://dxs.ninja"><img src="https://img.shields.io/badge/website-DXS.NINJA-orange" alt="Website Status"></a>
