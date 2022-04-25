@@ -1,4 +1,4 @@
-<p align="center"><img width="500" src="https://github.com/dsxninja/.github/blob/main/profile/images/DSX.png?raw=true" alt="DXS logo"></p>
+<p align="center"><img width="500" src="https://github.com/dsxninja/.github/blob/main/profile/dsx/Main Banner Transparent.png?raw=true" alt="DXS logo"></p>
 
 <p align="center">
   <a href="https://dsx.ninja"><img src="https://img.shields.io/badge/website-DSX.NINJA-orange" alt="Website Status"></a>
